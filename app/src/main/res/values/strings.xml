@@ -5,4 +5,9 @@
     <string name="person">Persona</string>
     <string name="unknown_error">Error desconocido</string>
     <string name="no_internet">No hay internet</string>
+    <string name="phone">Teléfono:</string>
+    <string name="location">Ubicación:</string>
+    <string name="email">Email:</string>
+    <string name="name">Nombre:</string>
+    <string name="error_refresh">Error. Vuelve a refrescar</string>
 </resources>

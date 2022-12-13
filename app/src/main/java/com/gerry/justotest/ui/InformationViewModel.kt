@@ -24,6 +24,10 @@ class InformationViewModel @Inject constructor(
         dowloadPerson()
     }
 
+    fun downloadAgain(){
+        dowloadPerson()
+    }
+
     private fun dowloadPerson() {
         viewModelScope.launch {
             _status.value = ApiResponseStatus.Loading()

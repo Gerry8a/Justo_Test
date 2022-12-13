@@ -15,4 +15,10 @@ data class Person(
     val id: Id,
     val picture: Picture,
     val nat: String
-)
+){
+    fun getFullName(fisrName: String, lastName: String): String{
+        val builder = StringBuilder()
+        builder.append(fisrName).append(" ").append(lastName)
+        return builder.toString()
+    }
+}
