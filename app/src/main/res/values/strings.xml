@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Justo Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="person">Persona</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="no_internet">No hay internet</string>
 </resources>
